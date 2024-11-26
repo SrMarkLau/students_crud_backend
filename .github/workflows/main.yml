@@ -24,7 +24,7 @@ jobs:
 
     # Run Gradle build and tests
     - name: Build and Test with Gradle
-      run: ./gradlew build test --info
+      run: sh ./gradlew build test --info
 
     # Setup Node.js for Railway CLI
     - name: Setup Node.js
